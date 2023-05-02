@@ -1,0 +1,13 @@
+{
+	"name": "ali/php-rest-api",
+	"description": "A Simple REST API in PHP",
+	"type": "project",
+	"require": {
+		"vlucas/phpdotenv": "^5.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"Src\\": "src/"
+		}
+	}
+}
